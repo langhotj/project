@@ -1,1 +1,1 @@
-json.merge! @person.attributes
+json.partial! "persons/person", person: @person
